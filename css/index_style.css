@@ -1,0 +1,65 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #e5e8fb;
+}
+
+.yatzy{
+    height: 100%;
+    width: 100%;
+    padding: 3%;
+}
+
+.table{
+    height: 90%;
+    width: 300px;
+    margin-top: 20px;
+    border: 2px slategray solid;
+}
+
+
+.first{
+    float: right;
+}
+.secound{
+    float: left;
+    height: 100%;
+}
+
+button{
+  background-color: gray;
+  border: none;
+  color: white;
+  padding: 16px 50px;
+  text-align: center;
+  font-size: 16px;
+  position: center;
+  opacity: 0.6;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+.roll{
+    margin: 10px 10px;
+    padding: 30px;
+    width: 400px;
+ }
+
+.dice{
+    width: 650px;
+    margin: 20px 23%;
+    border: 2px solid slategray ;
+}
+.col{
+    padding: 30px;
+    text-align: center;
+    display: inline;
+}
+.col p{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+.choosedDice, .choosedMinor{
+    border: 3px solid black;
+    background-color: orange;
+}

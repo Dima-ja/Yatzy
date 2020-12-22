@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Start Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/index_style.css" />  
+</head>
+
+<body>
+    <div class="roll">
+        <h3>PRESS ROLL TO BEGIN</h3>
+    </div>	
+
+<div class="yatzy row">
+  <div class="table-responsive col-md-6">
+    <table class="first table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Minor</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">one</th>
+            <td id="minor1" class="minor notchoosedMinor" ></td>
+          </tr>
+          <tr>
+            <th scope="row">two</th>
+            <td id="minor2" class="minor notchoosedMinor" ></td>
+          </tr>
+          <tr>
+            <th scope="row">three</th>
+            <td id="minor3" class="minor notchoosedMinor"></td>
+          </tr>
+          <tr>
+            <th scope="row">four</th>
+            <td id="minor4" class="minor notchoosedMinor"></td>
+          </tr>
+          <tr>
+            <th scope="row">five</th>
+            <td id="minor5" class="minor notchoosedMinor"></td>
+          </tr>
+          <tr>
+            <th scope="row">six</th>
+            <td id="minor6" class="minor notchoosedMinor"></td>
+          </tr>
+          <tr>
+            <th scope="row">SUM</th>
+            <td id="sum" ></td>
+          </tr>
+          <tr>
+            <th scope="row">Bonus</th>
+            <td id="bonus" ></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>      
+   <div class="table-responsive col-md-6">
+    <table class="secound table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Major</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Three of a kind</th>
+            <td id="threeOfKind" class="Major"></td>
+          </tr>
+          <tr>
+            <th scope="row">Four of a kind</th>
+            <td id="FourOfKind" class="Major"></td>
+          </tr>
+          <tr>
+            <th scope="row">Full house</th>
+            <td id="FullHouse" class="Major"></td>
+          </tr>
+          <tr>
+            <th scope="row">Small stright</th>
+            <td id="SamllStright" class="Major"></td>
+          </tr>
+          <tr>
+            <th scope="row">Large stright</th>
+            <td id="LargeStright" class="Major"></td>
+          </tr>
+          <tr>
+            <th scope="row">Yatzy</th>
+            <td id="Yatzy" class="Major"></td>
+          </tr>
+          <tr>
+            <th scope="row">Chance</th>
+            <td id="Chance" class="Major"></td>
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>  
+</div>
+
+<div class="roll">
+    <button class="rolledButton" >Roll Dice</button>
+</div>
+
+<div class="row m-auto dice align-items-center justify-content-center">
+    <div class="col"><p class="column-name notChoosed bg-blue">Dice</p></div>
+    <div class="col"><p class="column-name notChoosed bg-blue">Dice</p></div>
+    <div class="col"><p class="column-name notChoosed bg-blue">Dice</p></div>
+    <div class="col"><p class="column-name notChoosed bg-blue">Dice</p></div>
+    <div class="col"><p class="column-name notChoosed bg-blue">Dice</p></div>
+</div>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/yatzy.js"></script>
+</body>
+
+</html>
